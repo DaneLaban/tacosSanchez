@@ -65,6 +65,31 @@ a.BtnWhite {
   border: #fff 1px solid;
 }
 
+.image-and-text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0 20px;
+}
+
+img.solo-image {
+  display: flex;
+  overflow: hidden;
+  transform: rotate(45deg);
+  width: 500px;
+  height: 500px;
+}
+
+.text {
+  font-size: 16px;
+  margin-left: 150px;
+  width: 35%;
+}
+
+.text h1 {
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 750px) {
   .center-box {
     display: none;
