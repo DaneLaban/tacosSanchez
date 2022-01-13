@@ -81,13 +81,19 @@ img.solo-image {
 }
 
 .text {
-  font-size: 16px;
   margin-left: 150px;
   width: 35%;
 }
 
+.text p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
 .text h1 {
   text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 750px) {
