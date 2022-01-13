@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 1px;
+  background-color: #fef5ed;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/*----- TOP HEADER PICTURE -----*/
+#header-menu {
+  padding: 0 25px;
+  margin: 20px 0;
+}
+
+.header-picture img {
+  height: 100px;
+}
+
+.row {
+  padding: 0 20px;
+ 
+}
+
+img {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- CENTER BOX IN TOP IMAGE -----*/
+.center-box {
+  background: rgba(53, 166, 151, 0.8);
+  padding: 80px 20px;
+  text-align: center;
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-text {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.BtnWhite,
+a.BtnWhite {
+  color: #35a697;
+  background: #fff;
+  border: 1px solid transparent;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.BtnWhite:hover {
+  background-color: #35a697;
+  color: white;
+  border: #fff 1px solid;
+}
+
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+/* .column {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 25px;
+}
+
+.column img {
+} */
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/* @media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+} */
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+} */ */
