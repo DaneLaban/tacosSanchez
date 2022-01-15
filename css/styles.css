@@ -15,8 +15,14 @@ body {
   margin: 20px 0;
 }
 
-.header-picture img {
+img.header-picture {
   height: 100px;
+}
+
+.header-contact {
+  float: right;
+  margin: 0 auto;
+  padding: 2.4%;
 }
 
 /*----- COLLAGE PICTURE SECTION -----*/
@@ -177,6 +183,22 @@ div.service-col img {
   .table,
   .backyard {
     display: none;
+  }
+
+  div.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  section#header-menu {
+    padding-left: 0;
+  }
+
+  .header-contact {
+    float: right;
+    margin: 0 auto;
+    margin-top: 8%;
+    padding-right: 0;
   }
 
   img.backyard-mobile {
