@@ -141,13 +141,37 @@ img.solo-image {
 div.service-col img {
   height: 100%;
   width: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 50%,
-    rgba(0, 0, 0, 0.83) 99%,
-    rgba(0, 0, 0, 0.85) 100%
-  );
 }
+
+.service-col h3,
+h1 {
+  text-transform: uppercase;
+}
+
+/*----- THREE BOXES SECTION -----*/
+.boxes {
+  height: 100%;
+  text-align: center;
+}
+
+.three-boxes {
+  padding: 50px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.unbelievable,
+.inspired,
+.one-kind {
+  width: 33.33%;
+  text-align: left;
+}
+
+.column h6 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
 /*----- MOBILE CSS -----*/
 
 @media screen and (max-width: 750px) {
