@@ -411,6 +411,7 @@ div.row.three-boxes {
 
   .clients img {
     margin-top: -5%;
+    width: 35%;
   }
 
   a.fab {
@@ -442,6 +443,6 @@ div.row.three-boxes {
 
   #foot .fab {
     font-size: 15px;
-    right: 30%;
+    right: 28%;
   }
 }
