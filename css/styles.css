@@ -1,3 +1,15 @@
+/*----- FONT STYLES -----*/
+
+/* font-family: 'Corinthia', cursive; */
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Lora', serif; */
+/* font-family: 'Luxurious Roman', cursive; */
+/* font-family: 'Meow Script', cursive; */
+/* font-family: 'Roboto Slab', serif; */
+/* font-family: 'The Nautigal', cursive; */
+/* font-family: 'Dancing Script', cursive; */
+
+/*----- START OF CSS -----*/
 * {
   box-sizing: border-box;
 }
@@ -7,6 +19,17 @@ body {
   background-color: white;
   width: 100%;
   overflow-x: hidden;
+  font-family: "Luxurious Roman", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 2px;
+  font-family: "Dancing Script", cursive;
 }
 
 /*----- TOP HEADER PICTURE -----*/
@@ -17,6 +40,14 @@ body {
 
 img.header-picture {
   height: 100px;
+}
+
+a.fab {
+  float: right;
+  font-size: 24px;
+  padding-top: 2.5%;
+  text-decoration: none;
+  color: #fd1d1d;
 }
 
 .header-contact {
@@ -143,9 +174,9 @@ div.service-col img {
   width: 100%;
 }
 
-.service-col h3,
-h1 {
+.service-col h3 {
   text-transform: uppercase;
+  font-family: "Luxurious Roman", cursive;
 }
 
 /*----- THREE BOXES SECTION -----*/
@@ -154,8 +185,11 @@ h1 {
   text-align: center;
 }
 
+div.row.three-boxes {
+  margin: 0 auto;
+}
+
 .three-boxes {
-  padding: 50px;
   background-color: #fff;
   width: 100%;
 }
@@ -163,13 +197,105 @@ h1 {
 .unbelievable,
 .inspired,
 .one-kind {
-  width: 33.33%;
+  width: 30%;
   text-align: left;
+  padding: 40px 24px;
+  margin: 0 auto;
 }
 
 .column h6 {
   text-transform: uppercase;
   margin-bottom: 30px;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.column p {
+  margin-bottom: 0;
+}
+
+/*----- CLIENT SECTION -----*/
+.clients {
+  padding-bottom: 8%;
+}
+.clients .cliental {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.clients .prestige {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 75px;
+}
+
+.clients img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/*----- FOOTER -----*/
+.footer {
+  width: 100%;
+  background-color: #20410c;
+}
+
+#foot .ig {
+  border-radius: 3px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #fb3958;
+  padding: 10px 12px;
+  margin: 5px;
+}
+
+#foot .fb {
+  border-radius: 3px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #1877f2;
+  padding: 10px 12px;
+  margin: 5px;
+}
+
+#foot .fb,
+.ig {
+  right: 40%;
+  position: relative;
+  line-height: 1;
+}
+
+.footer p {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.footer .stc {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.footer .t {
+  font-size: 22px;
+}
+
+.footer .row .column {
+  width: 50%;
+}
+
+.footer .social {
+  color: white;
+  font-size: 30px;
+  text-decoration: underline 2px white;
 }
 
 /*----- MOBILE CSS -----*/
@@ -258,10 +384,64 @@ h1 {
     border: 5px double #20410c;
     background-color: #fff;
     width: 75%;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   div.row.services-row {
     padding: 0;
+  }
+
+  .unbelievable,
+  .inspired,
+  .one-kind {
+    text-align: left;
+    width: 75%;
+    height: 75%;
+    padding: 50px 25px;
+    margin: 20px auto;
+  }
+
+  .column h6 {
+    text-align: center;
+  }
+
+  .clients .prestige {
+    width: 75%;
+  }
+
+  .clients img {
+    margin-top: -5%;
+  }
+
+  a.fab {
+    font-size: 15px;
+    padding-top: 11%;
+    text-decoration: none;
+    color: #fd1d1d;
+  }
+
+  .header-contact {
+    font-size: 12px;
+  }
+
+  #foot .stc {
+    font-size: 20px;
+  }
+
+  #foot .t {
+    font-size: 15px;
+  }
+
+  #foot .copy {
+    font-size: 12px;
+  }
+
+  #foot .social {
+    font-size: 20px;
+  }
+
+  #foot .fab {
+    font-size: 15px;
+    right: 30%;
   }
 }
