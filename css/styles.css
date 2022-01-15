@@ -144,7 +144,7 @@ img.solo-image {
   margin-top: 15%;
   height: 100%;
   background-color: #20410c;
-  background-image: url(images/green-stripes.jpg);
+  /* background-image: url(/images/green-stripes.jpg); */
 }
 
 .services-row {
