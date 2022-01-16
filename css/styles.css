@@ -51,6 +51,7 @@ a.menu {
   height: 100%;
   margin: 1%;
   margin-top: 3%;
+  margin-right: 0;
   text-decoration: none;
   color: #fd1d1d;
 }
@@ -90,6 +91,7 @@ img.backyard-mobile {
   color: white;
   font-size: 80px;
   margin-bottom: 25px;
+  letter-spacing: 5px;
 }
 
 .BtnWhite,
