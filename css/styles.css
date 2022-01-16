@@ -36,24 +36,30 @@ h6 {
 #header-menu {
   padding: 0 25px;
   margin: 20px 0;
+  margin-top: 0;
+  background-color: #20410c;
 }
 
 img.header-picture {
-  height: 100px;
+  width: 250px;
 }
 
-a.fab {
+a.contact,
+a.menu {
   float: right;
   font-size: 24px;
-  padding-top: 2.5%;
+  height: 100%;
+  margin: 1%;
+  margin-top: 3%;
   text-decoration: none;
   color: #fd1d1d;
 }
 
 .header-contact {
   float: right;
+  font-size: 20px;
   margin: 0 auto;
-  padding: 2.4%;
+  padding: 2.5%;
 }
 
 /*----- COLLAGE PICTURE SECTION -----*/
@@ -172,6 +178,7 @@ img.solo-image {
 div.service-col img {
   height: 100%;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .service-col h3 {
@@ -233,15 +240,18 @@ div.row.three-boxes {
   margin-bottom: 75px;
 }
 
-.clients img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+.clients .client-image {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.client-image img {
+  width: 300px;
+  height: 100px;
 }
 
 /*----- FOOTER -----*/
-.footer {
+#foot {
   width: 100%;
   background-color: #20410c;
 }
@@ -266,33 +276,36 @@ div.row.three-boxes {
   margin: 5px;
 }
 
-#foot .fb,
-.ig {
-  right: 40%;
+#foot .fab {
+  right: 35%;
+  float: right;
   position: relative;
   line-height: 1;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 1.5%;
 }
 
-.footer p {
+#foot p {
   margin: 0 auto;
   color: white;
   text-align: center;
 }
 
-.footer .stc {
+#foot .stc {
   font-size: 30px;
   text-transform: uppercase;
 }
 
-.footer .t {
+#foot .t {
   font-size: 22px;
 }
 
-.footer .row .column {
+#foot .row .column {
   width: 50%;
 }
 
-.footer .social {
+#foot .social {
   color: white;
   font-size: 30px;
   text-decoration: underline 2px white;
@@ -351,8 +364,13 @@ div.row.three-boxes {
     padding-right: 0;
   }
 
+  #header-menu a {
+    font-size: 15px;
+    margin-top: 10%;
+  }
+
   img.backyard-mobile {
-    display: block;
+    display: flex;
   }
 
   .text h1 {
@@ -378,13 +396,15 @@ div.row.three-boxes {
     width: 100%;
     height: 100%;
     margin: auto;
+    margin-bottom: 0;
+    padding-top: 20px;
   }
 
   .services-row {
     border: 5px double #20410c;
     background-color: #fff;
-    width: 75%;
-    margin: 20px auto;
+    width: 90%;
+    margin: auto;
   }
 
   div.row.services-row {
@@ -406,19 +426,7 @@ div.row.three-boxes {
   }
 
   .clients .prestige {
-    width: 75%;
-  }
-
-  .clients img {
-    margin-top: -5%;
-    width: 35%;
-  }
-
-  a.fab {
-    font-size: 15px;
-    padding-top: 11%;
-    text-decoration: none;
-    color: #fd1d1d;
+    width: 90%;
   }
 
   .header-contact {
@@ -442,7 +450,14 @@ div.row.three-boxes {
   }
 
   #foot .fab {
-    font-size: 15px;
-    right: 28%;
+    font-size: 24px;
+    right: 25%;
+    padding-top: 1%;
+  }
+
+  .client-image img {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
   }
 }
