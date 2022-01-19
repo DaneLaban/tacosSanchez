@@ -265,15 +265,12 @@ div.row.three-boxes {
 
 #instagram-section a {
   text-decoration: none;
-  font-size: 48px;
-  color: #fd1d1d;
+  font-size: 40px;
+  color: black;
 }
 
 #instagram-section a:hover {
   color: white;
-  text-shadow: 2px 2px #fd1d1d;
-  -webkit-text-stroke: 1px #fd1d1d;
-  -webkit-font-smoothing: antialiased;
 }
 
 #instagram-section .column {
@@ -539,9 +536,15 @@ div.row.three-boxes {
     padding: 0;
   }
 
-  #instagram-section h1 {
-    width: 300px;
+  #instagram-section .hvr-grow {
+    width: 100%;
+    font-size: 33px;
+    letter-spacing: 0.5px;
     margin: auto;
     margin-top: 80px;
+  }
+
+  #instagram-section a:hover {
+    color: white;
   }
 }
