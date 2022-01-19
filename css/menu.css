@@ -1,0 +1,213 @@
+/* 
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 1px;
+  background-color: white;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+/* ----- HEADER ----- */
+#header-menu {
+  padding: 0 25px;
+  margin: 20px 0;
+  margin-top: 0;
+  background-color: #20410c;
+}
+
+img.header-picture {
+  width: 250px;
+}
+
+a.contact,
+a.home {
+  font-family: "Dancing Script", cursive;
+  float: right;
+  font-size: 24px;
+  height: 100%;
+  margin: 1% 2%;
+  margin-top: 3%;
+  margin-right: 0;
+  text-decoration: none;
+  color: #fd1d1d;
+}
+
+a.contact:hover,
+a.home:hover {
+  color: white;
+}
+
+.vertical-line {
+  color: white;
+  font-size: 24px;
+  right: 7.3%;
+  top: 5%;
+  position: absolute;
+}
+
+/* ----- FOOTER -----*/
+/*----- FOOTER -----*/
+#foot div.container {
+  margin-left: 10%;
+  margin-top: 5%;
+  padding-top: 3%;
+  padding-bottom: 0;
+}
+
+#foot {
+  width: 100%;
+  height: 200px;
+  background-color: #20410c;
+}
+
+#foot .ig {
+  border-radius: 3px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #fb3958;
+  padding: 10px 12px;
+  margin: 5px;
+}
+
+#foot .fb {
+  border-radius: 3px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #1877f2;
+  padding: 10px 12px;
+  margin: 5px;
+}
+
+#foot .fab {
+  right: 35%;
+  float: right;
+  position: relative;
+  line-height: 1;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 1.5%;
+}
+
+#foot p {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+#foot .stc {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#foot .t {
+  font-size: 22px;
+}
+
+#foot .row .column {
+  width: 50%;
+}
+
+#foot .social {
+  color: white;
+  font-size: 30px;
+  text-decoration: underline 2px white;
+}
+
+/* ----------
+----- MOBILE CSS -----
+------------------------------- */
+@media screen and (max-width: 750px) {
+  .center-box {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  body,
+  html {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  body,
+  html,
+  div.text,
+  .column,
+  .our-services {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* ----- HEADER ----- */
+  section#header-menu {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  #header-menu a {
+    font-size: 20px;
+    margin-top: 10%;
+  }
+
+  a.contact,
+  a.home {
+    margin: 0 2%;
+  }
+
+  .vertical-line {
+    right: 20.5%;
+    color: #fd1d1d;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    top: 5.7%;
+  }
+
+  #header-menu img {
+    width: 200px;
+  }
+
+  /* ----- FOOTER ----- */
+  #foot div.container {
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-top: 11%;
+    padding-bottom: 0;
+  }
+
+  #foot .stc {
+    font-size: 20px;
+  }
+
+  #foot .t {
+    font-size: 15px;
+  }
+
+  #foot .copy {
+    font-size: 12px;
+  }
+
+  #foot .social {
+    font-size: 20px;
+  }
+
+  #foot .fab {
+    font-size: 24px;
+    right: 25%;
+    padding-top: 1%;
+  }
+}
