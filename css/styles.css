@@ -15,7 +15,6 @@ body {
   width: 100%;
   overflow-x: hidden;
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: #20410c3b;
 }
 
 h1,
@@ -40,21 +39,17 @@ img.header-picture {
   width: 250px;
 }
 
-a.contact,
-a.menu {
+#header-menu a {
   float: right;
   font-size: 24px;
   height: 100%;
-  margin: 1%;
-  margin-top: 3%;
-  margin-right: 0;
+  margin: 3% 1%;
   text-decoration: none;
   color: #fd1d1d;
   font-family: "Dancing Script", cursive;
 }
 
-a.contact:hover,
-a.menu:hover {
+#header-menu a:hover {
   color: white;
 }
 
@@ -80,7 +75,7 @@ img.backyard-mobile {
 
 /*----- CENTER BOX IN TOP IMAGE -----*/
 .center-box {
-  background: #20410cb6;
+  background-color: #20410cb6;
   text-align: center;
   position: absolute;
   top: 60%;
@@ -118,11 +113,96 @@ a.BtnWhite {
   border: #fff 1px solid;
 }
 
+/*----- CATERING SPECIALTY SECTION -----*/
+#special-section {
+  padding: 100px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -150px;
+  text-align: center;
+}
+
+#special-section h1 {
+  margin-bottom: 27px;
+  font-family: "EB Garamond", serif;
+  color: #20410c;
+  text-shadow: 2px 2px #20410c91;
+  -webkit-text-stroke: 1.5px #20410c91;
+  -webkit-font-smoothing: antialiased;
+}
+
+#special-section p {
+  font-size: 21px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  padding: 0 25%;
+}
+
+/*----- CATERING EVENTS && MENU BOX -----*/
+
+#cater-menu .column {
+  border-radius: 20px;
+  border: 7px solid #20410c;
+  margin: 1% auto;
+  width: 30%;
+  min-height: 825px;
+  padding: 2rem;
+  justify-content: center;
+}
+
+#cater-menu .menu {
+  margin-right: 10px;
+}
+
+#cater-menu .event {
+  margin-left: 10px;
+}
+
+#cater-menu img {
+  border-radius: 50%;
+  border: 10px solid #20410c91;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+#cater-menu h2 {
+  text-transform: uppercase;
+  font-size: 47px;
+  line-height: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+#cater-menu h5 {
+  margin-top: 20px;
+}
+
+#cater-menu ul {
+  padding-left: 0;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: left;
+  width: 25.33%;
+}
+
+#cater-menu a {
+  text-decoration: none;
+  color: #20410c91;
+}
+
+#cater-menu a:hover {
+  color: #20410c;
+}
+
+/*----- DIAMOND PIC & TEXT -----*/
 .image-and-text {
   align-items: center;
   justify-content: center;
   display: flex;
   padding: 0 20px;
+  margin-top: 225px;
 }
 
 img.solo-image {
@@ -139,7 +219,7 @@ img.solo-image {
 }
 
 .text p {
-  font-size: 16px;
+  font-size: 21px;
   margin-bottom: 30px;
 }
 
@@ -167,6 +247,7 @@ img.solo-image {
 .services-text {
   text-align: center;
   margin-bottom: 50px;
+  font-family: "EB Garamond", serif;
 }
 
 .service-col {
@@ -231,11 +312,12 @@ div.row.three-boxes {
   text-align: center;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 62px;
 }
 
 .clients .prestige {
   width: 30%;
+  font-size: 21px;
   margin: auto;
   text-align: center;
   letter-spacing: 1px;
@@ -254,6 +336,11 @@ div.row.three-boxes {
 }
 
 /*----- INSTAGRAM SECTION -----*/
+#instagram-section {
+  padding-top: 4%;
+  padding-bottom: 7%;
+}
+
 #instagram-section div.row {
   margin: 10px 0;
 }
@@ -274,21 +361,24 @@ div.row.three-boxes {
 }
 
 #instagram-section .column {
-  width: 20%;
-  margin: auto;
+  width: 320px;
+  margin: 0 auto;
+
+  padding: 0;
+  text-align: center;
 }
 
 #instagram-section .insta-pics {
-  width: 300px;
+  width: 100%;
   height: 300px;
   margin: 5px 0;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 /*----- FOOTER -----*/
 #foot div.container {
   margin-left: 10%;
-  margin-top: 5%;
+
   padding-top: 3%;
   padding-bottom: 0;
 }
@@ -429,9 +519,23 @@ div.row.three-boxes {
   div.text {
     float: left;
     margin-left: 0;
+    margin-top: -175px;
     margin-bottom: -50px;
   }
 
+  /*------ SPECIALIZE SECTION ------*/
+  #special-section {
+    margin: 50px auto;
+    padding: 25px 0;
+  }
+
+  /*----- CATERING EVENTS/MENU BOX ------*/
+  #cater-menu .column {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  /*------ SERVICES SECTION ------*/
   .our-services {
     height: 100%;
   }
@@ -477,13 +581,54 @@ div.row.three-boxes {
     width: 90%;
   }
 
-  .header-contact {
+  /* .header-contact {
     font-size: 12px;
+  } */
+
+  /*------ CLIENT SECTION ------*/
+  .client-image img {
+    width: 200px;
+    height: 50px;
   }
 
+  .clients .prestige {
+    margin-bottom: 20px;
+  }
+
+  /*----- IG SECTION -----*/
+  #instagram-section {
+    padding-top: 1%;
+    padding-bottom: 10%;
+  }
+
+  #instagram-section .column {
+    width: 255px;
+    height: 200px;
+    margin: 1% auto;
+  }
+
+  #instagram-section .insta-pics {
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #instagram-section .hvr-grow {
+    width: 100%;
+    font-size: 33px;
+    letter-spacing: 0.5px;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  #instagram-section a:hover {
+    color: white;
+  }
+
+  /*------ FOOTER ------*/
   #foot div.container {
     margin-left: 5%;
-    margin-top: 5%;
     padding-top: 11%;
     padding-bottom: 0;
   }
@@ -508,43 +653,5 @@ div.row.three-boxes {
     font-size: 24px;
     right: 25%;
     padding-top: 1%;
-  }
-
-  .client-image img {
-    width: 200px;
-    height: 50px;
-  }
-
-  .clients .prestige {
-    margin-bottom: 20px;
-  }
-
-  /*----- IG SECTION -----*/
-
-  #instagram-section .column {
-    width: 50%;
-    height: 200px;
-    margin: auto;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
-  }
-
-  #instagram-section .insta-pics {
-    width: 240px;
-    height: 200px;
-    margin: 0;
-    padding: 0;
-  }
-
-  #instagram-section .hvr-grow {
-    width: 100%;
-    font-size: 33px;
-    letter-spacing: 0.5px;
-    margin: auto;
-    margin-top: 80px;
-  }
-
-  #instagram-section a:hover {
-    color: white;
   }
 }

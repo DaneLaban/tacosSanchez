@@ -1,0 +1,61 @@
+/* 
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+*/
+
+/*----- START OF CSS -----*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 1px;
+  background-color: white;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 2px;
+  font-family: "EB Garamond", serif;
+}
+
+/*----- TOP HEADER PICTURE -----*/
+#header-menu {
+  padding: 0 25px;
+  margin: 20px 0;
+  margin-top: 0;
+  background-color: #20410c;
+}
+
+img.header-picture {
+  width: 250px;
+}
+
+#header-menu a {
+  float: right;
+  font-size: 24px;
+  height: 100%;
+  margin: 3% 1%;
+  text-decoration: none;
+  color: #fd1d1d;
+  font-family: "Dancing Script", cursive;
+}
+
+#header-menu a:hover {
+  color: white;
+}
+
+.header-contact {
+  float: right;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 2.5%;
+}
