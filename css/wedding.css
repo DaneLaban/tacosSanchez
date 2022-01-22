@@ -39,7 +39,7 @@ img.header-picture {
   width: 250px;
 }
 
-#header-menu a {
+#header-menu .header-choices {
   float: right;
   font-size: 24px;
   height: 100%;
@@ -51,11 +51,4 @@ img.header-picture {
 
 #header-menu a:hover {
   color: white;
-}
-
-.header-contact {
-  float: right;
-  font-size: 20px;
-  margin: 0 auto;
-  padding: 2.5%;
 }
