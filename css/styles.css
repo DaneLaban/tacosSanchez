@@ -33,6 +33,7 @@ h6 {
   margin: 20px 0;
   margin-top: 0;
   background-color: #20410c;
+  width: 100%;
 }
 
 img.header-picture {
@@ -62,7 +63,8 @@ img.header-picture {
 
 /*----- COLLAGE PICTURE SECTION -----*/
 .picture-row {
-  padding: 0 20px;
+  margin: auto;
+  width: 100%;
 }
 
 img {
@@ -78,7 +80,7 @@ img.backyard-mobile {
   background-color: #20410cb6;
   text-align: center;
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 5% 5%;
@@ -118,7 +120,7 @@ a.BtnWhite {
   padding: 100px;
   width: 100%;
   margin: 0 auto;
-  margin-top: -150px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -139,13 +141,12 @@ a.BtnWhite {
 }
 
 /*----- CATERING EVENTS && MENU BOX -----*/
-
 #cater-menu .column {
   border-radius: 20px;
   border: 7px solid #20410c;
   margin: 1% auto;
-  width: 30%;
-  min-height: 825px;
+  width: 33.33%;
+  min-height: 800px;
   padding: 2rem;
   justify-content: center;
 }
@@ -164,7 +165,7 @@ a.BtnWhite {
   width: 250px;
   height: 250px;
   margin-bottom: 50px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #cater-menu h2 {
@@ -202,7 +203,7 @@ a.BtnWhite {
   justify-content: center;
   display: flex;
   padding: 0 20px;
-  margin-top: 225px;
+  margin: 225px 0;
 }
 
 img.solo-image {
@@ -272,36 +273,81 @@ div.service-col img {
 }
 
 /*----- THREE BOXES SECTION -----*/
-.boxes {
-  height: 100%;
-  text-align: center;
-}
-
-div.row.three-boxes {
-  margin: 0 auto;
-}
-
-.three-boxes {
-  background-color: #20410c00;
-  width: 100%;
-}
-
 .unbelievable,
 .inspired,
 .one-kind {
   width: 30%;
   text-align: left;
-  padding: 40px 24px;
+  padding: 100px 25px;
   margin: 0 auto;
 }
 
 .column h6 {
   text-transform: uppercase;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .column p {
   margin-bottom: 0;
+}
+
+/*----- Testimonial Section -----*/
+
+#testimonials {
+  margin: 5% auto;
+  padding: 5% 1%;
+}
+
+#testimonials a.prev,
+#testimonials a.next {
+  background-color: #111111;
+  width: 75px;
+  height: 75px;
+  margin: auto 3.33%;
+}
+
+#tesimonials div.testi {
+  position: relative;
+}
+
+#testimonials img {
+  width: 8%;
+  border-radius: 100%;
+}
+
+#testimonials div.testimonial-image {
+  text-align: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+#testimonials p {
+  text-align: left;
+  margin: 2.33% auto;
+  position: absolute;
+  padding-left: 10px;
+  line-height: 20px;
+  font-size: 20px;
+  display: inline-block;
+  font-family: "Dancing Script", cursive;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #111111;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+#testimonials .yelp {
+  text-decoration: solid underline;
+  color: #20410c;
+  margin-left: 10px;
 }
 
 /*----- CLIENT SECTION -----*/
@@ -342,40 +388,136 @@ div.row.three-boxes {
 }
 
 #instagram-section div.row {
-  margin: 10px 0;
+  margin: 10px auto;
+  width: 100%;
 }
 
 #instagram-section h1 {
   margin-top: 50px;
-  text-transform: uppercase;
 }
 
-#instagram-section a {
-  text-decoration: none;
-  font-size: 40px;
-  color: black;
+#instagram-section .left-ig {
+  position: relative;
 }
 
-#instagram-section a:hover {
-  color: white;
+#instagram-section p {
+  position: absolute;
+  display: inline-flex;
+  left: 6%;
+  top: 10%;
+  color: #fd1d1d;
+  font-family: "Dancing Script", cursive;
 }
 
 #instagram-section .column {
-  width: 320px;
+  width: 275px;
   margin: 0 auto;
-
   padding: 0;
   text-align: center;
 }
 
 #instagram-section .insta-pics {
   width: 100%;
-  height: 300px;
+  height: 250px;
   margin: 5px 0;
+}
+
+#instagram-section .follow {
+  text-align: center;
+}
+
+#instagram-section .ig {
+  color: #fff;
+  font-size: 20px;
+  padding: 8px;
   border-radius: 10px;
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+}
+
+.insta-image {
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-left: 20px;
 }
 
 /*----- FOOTER -----*/
+
+.column .instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 200px; /* change this to change the size*/
+}
+
+.column .tiktok {
+  color: #111111;
+
+  filter: drop-shadow(2px 0px 0px #fd3e3e) drop-shadow(-2px -2px 0px #4de8f4);
+}
+
 #foot div.container {
   margin-left: 10%;
 
@@ -581,10 +723,6 @@ div.row.three-boxes {
     width: 90%;
   }
 
-  /* .header-contact {
-    font-size: 12px;
-  } */
-
   /*------ CLIENT SECTION ------*/
   .client-image img {
     width: 200px;
@@ -602,7 +740,7 @@ div.row.three-boxes {
   }
 
   #instagram-section .column {
-    width: 255px;
+    width: 45%;
     height: 200px;
     margin: 1% auto;
   }
