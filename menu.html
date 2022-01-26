@@ -28,21 +28,12 @@
 <body>
 
     <!-- HEADER -->
-    <section id="header-menu">
-        <div class="container-fluid">
-            
-            <a href="index.html">
-             <img class="header-picture" alt="" src="images/logo.png">   
-            </a>
-            
-
-            <a href="#foot" class="header-choices">Contact</a>
-            <a href="social.html" class="header-choices">Social</a>
-            <a href="wedding.html" class="header-choices">Wedding</a>
-            <a href="corporate.html" class="header-choices">Corporate</a>
-            <a href="menu.html" class="header-choices" style="color: white;">Menu</a>
-            <a href="index.html" class="header-choices">Home</a>
-       
+    <section id="header-menu" class="inline-photo show-on-scroll" style="border: none;">
+        <div class="container-fluid">   
+            <img class="header-picture" alt="" src="images/logo.png">
+            <a href="#foot">Contact</a>
+            <a href="menu.html" style="color: white;">Menu</a>
+            <a href="index.html">Home</a>
         </div>
     </section>
 
@@ -50,7 +41,7 @@
 
     <!-- MENU SECTION -->
     <section id="top-catering">
-        <div class="fine-catering">
+        <div class="fine-catering inline-photo show-on-scroll">
         <h1 class="our-menu">Our Menus</h1>
             <a class="catering-links" href="#mexi">Mexican </a>
             <a class="catering-links" href="#merica">American </a>
@@ -67,17 +58,23 @@
         
         
         <div class="picture-row">
-                <img class="img-center" src="images/summer-lunch.JPG">
-                <img class="img-center" src="images/ig-one.jpg">
-                <img class="img-center" src="images/twenty-four.jpg">                   
+                <img class="img-center inline-photo show-on-scroll" src="images/summer-lunch.JPG">
+                <img class="img-center inline-photo show-on-scroll" src="images/ig-one.jpg">
+                <img class="img-center inline-photo show-on-scroll" src="images/twenty-four.jpg">                   
         </div>
     </section>
 
     <!--------- MEXICAN SECTION -------->
     <section id="menu-section">
            <h1 id="mexi">Mexican Style Buffet</h1>
+           
 
-        <div class="row mexicanMenu">
+        <div class="row mexicanMenu inline-photo show-on-scroll" style="border: none;">
+            <img src="images/Cinco.jpg" class="mexico-image inline-photo show-on-scroll">
+
+            <h2 class="mexicanPriceTop"><span class="msb1">Mexican Menu</span></h2>
+           
+
             <div class="our-menu-column col-lg-4 col-md-6">
                 <div class="card menu-card">
                     <h2><span class="msb1">Taco Bar</span></h2>
@@ -244,13 +241,11 @@
         <h1 id="merica">American Style Buffet</h1>
 
         <div class="american-menu">
-            <img src="images/ig-seven.jpg" class="twentyFourLong">
+            <img src="images/ig-seven.jpg" class="twentyFourLong inline-photo show-on-scroll">
 
-            <h2 class="americanPriceTop">24 Ft. Long Buffet</h2>
+            <h2 class="americanPriceTop"><span class="msb1">24 Ft. Long Buffet</span></h2>
 
-            <hr style="width: 20%; margin: 10px auto;">
-
-            <div class="row mericaListMenu">
+            <div class="row mericaListMenu inline-photo show-on-scroll" style="border: none; width: 100%; box-shadow: none;">
                 <div class="col col-lg-6 col-md6">
                     <h3 class="leftEntrees"><span class="msb1">Two Entrees</span></h3>
                     <p class="leftItems">Chicken Beast covered with Wine Mushroom and sauce</p>
@@ -291,13 +286,15 @@
     <h1 id="italy">Italian Style Buffet</h1>
 
     <div class="italian-menu">
-        <img src="images/ig-nine.jpg" class="italian-table">
+        <img src="images/ig-nine.jpg" class="italian-table inline-photo show-on-scroll">
 
-        <h2 class="italianPriceTop">Taste of Italy</h2>
+        <h2 class="italianPriceTop">
+            <span class="msb1">
+                Taste of Italy
+            </span> 
+        </h2>
 
-            <hr style="width: 20%; margin: 10px auto;">
-
-            <div class="row italianListMenu">
+            <div class="row italianListMenu inline-photo show-on-scroll" style="border: none; width: 100%; box-shadow: none;">
                 <div class="col col-lg-6 col-md6">
                     <h3 class="leftEntrees"><span class="msb1">Three Entrees</span></h3>
                         <p class="leftItems">Chicken Fettuccine Alfredo</p>
@@ -351,13 +348,17 @@
     <h1 id="apps">Appetizers</h1>
 
     <div class="appMenu">
-        <img src="images/app.JPG" class="app-picture">
+        <img src="images/app.JPG" class="app-picture inline-photo show-on-scroll">
 
-        <h2 class="appQuoteTop">Appetizer Menu</h2>
-            <p class="appQuoteBottom">For Any Social Gathering</p>
+            <h2 class="appQuoteTop">
+                <span class="msb1">
+                    Appetizer Menu
+                </span>
+            </h2>
 
-            <hr style="width: 20%; margin: 10px auto; margin-bottom: 3%;">
+    
 
+            <div class="app-para inline-photo show-on-scroll" style="border: none; width: 100%; box-shadow: none;">
             <p class="appItems">Chips and Salsa</p>
             <p class="appItems">Mini Ham and Cheese Sandwiches</p>
             <p class="appItems">Cracker with Tuna Salad</p>
@@ -377,6 +378,7 @@
             <p class="appItems">Meat Kabobs</p>
             <p class="appItems">Chicken Kabobs</p>
             <p class="appItems">Shrimp Aguachile</p>
+        </div>
 
     </div>
 
@@ -385,16 +387,18 @@
     <h1 id="picnic">Picnic</h1>
 
     <div class="picnicMenu">
-        <img src="images/summer-lunch.JPG" class="picnic-picture">
+        <img src="images/summer-lunch.JPG" class="picnic-picture inline-photo show-on-scroll">
 
-        <h2 class="picnicQuoteTop">Picnic Menu</h2>
-        <p class="picnicQuoteBottom">Bring The Fun To Your Backyard</p>
+        <h2 class="picnicQuoteTop">
+            <span class="msb1">
+                Picnic Menu
+            </span>
+        </h2>
 
-        <hr style="width: 20%; margin: 10px auto; margin-bottom: 3%;">
 
-        <div class="row picnicListMenu">
+        <div class="row picnicListMenu inline-photo show-on-scroll" style="border: none; width: 100%; box-shadow: none;">
             <div class="col col-lg-6 col-md6">
-                <h3 class="">Option 1</h3>
+                <h3>Option 1</h3>
 
             <hr style="width: 50%; margin: 10px auto;">
 
@@ -450,7 +454,7 @@
     <!-- FOOTER -->
     <div class="footer" id="foot">
         <div class="container">
-            <div class="row">
+            <div class="row inline-photo show-on-scroll" style="border: none; width: 100%; box-shadow: none;">
                 <div class="column">
                     <p class="creator stc">Sanchez Tacos Catering</p>
                      <p class="creator t">T: 951-371-5401</p>
@@ -471,6 +475,7 @@
         </div>
     </div>
 
+    <script src="html.js"></script>
 
 </body>
 </html>
