@@ -4,6 +4,26 @@ font-family: 'Dancing Script', cursive;
 font-family: 'EB Garamond', serif;
 */
 
+/*----- SCROLL ANIMATION -----*/
+.inline-photo {
+  border: 0.5em solid #fff;
+  border-bottom: 0.5em solid #fff;
+  border-radius: 0.25em;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(4em) rotateZ(0deg);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
+    opacity 0.3s 0.15s ease-out;
+  width: 90%;
+  will-change: transform, opacity;
+}
+
+.inline-photo.is-visible {
+  opacity: 1;
+  transform: rotateZ(0deg);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -15,7 +35,6 @@ body {
   overflow-x: hidden;
   font-family: "Barlow Semi Condensed", sans-serif;
   text-align: center;
-  background-color: #1a3d053d;
 }
 
 h2 {
@@ -28,26 +47,33 @@ h2 {
   margin: 20px 0;
   margin-top: 0;
   background-color: #20410c;
+  width: 100%;
+  text-align: start;
 }
 
 img.header-picture {
   width: 250px;
-  position: relative;
-  right: 289px;
 }
 
-#header-menu .header-choices {
-  font-family: "Dancing Script", cursive;
+#header-menu a {
   float: right;
   font-size: 24px;
   height: 100%;
   margin: 3% 1%;
   text-decoration: none;
   color: #fd1d1d;
+  font-family: "Dancing Script", cursive;
 }
 
 #header-menu a:hover {
   color: white;
+}
+
+.header-contact {
+  float: right;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 2.5%;
 }
 
 /*--------MENU ITEMS/ENTREES--------*/
@@ -127,7 +153,7 @@ img.header-picture {
   font-family: "Roboto Slab", serif;
   margin: -3% auto;
   padding: 12% 0 0 0;
-  background-color: #e0ddda;
+  background-color: #1a3d053d;
   width: 100%;
 }
 
@@ -162,15 +188,31 @@ img[class^="img-center"] {
 } */
 
 /*----------------MEXICAN MENU SECTION------------------------*/
+#menu-section img {
+  height: 670px;
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+
+#menu-section .mexicanPriceTop {
+  padding: 5% 0 2% 0;
+  margin: 0 auto;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
 div.menu-card {
   height: 100%;
-  background-color: #e0ddda;
+  background-color: #1a3d053d;
+  box-shadow: none;
 }
 
 .mexicanMenu {
   margin: 0 5%;
-  padding: 0;
-  padding-bottom: 1%;
+  padding: 2%;
+  background-color: #1a3d053d;
+  box-shadow: none;
 }
 
 #menu-section h1 {
@@ -216,9 +258,10 @@ div.menu-card {
 }
 
 .american-menu {
-  background-color: #e0ddda;
+  background-color: #1a3d053d;
   margin: 0 5%;
-  padding-bottom: 1%;
+  padding: 2%;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
 }
 
 .mericaListMenu {
@@ -249,9 +292,10 @@ div.menu-card {
 }
 
 .italian-menu {
-  background-color: #e0ddda;
+  background-color: #1a3d053d;
   margin: 0 5%;
-  padding-bottom: 1%;
+  padding: 2%;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
 }
 
 .italianPriceTop {
@@ -276,9 +320,10 @@ div.menu-card {
 
 /*---------------APPETIZER CSS----------------------*/
 .appMenu {
-  background-color: #e0ddda;
+  background-color: #1a3d053d;
   margin: 0 5%;
-  padding-bottom: 1%;
+  padding: 2%;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
 }
 
 .appMenu .app-picture {
@@ -288,6 +333,7 @@ div.menu-card {
 
 .appQuoteTop {
   padding-top: 5%;
+  padding-bottom: 3%;
   margin: 0 10%;
 }
 
@@ -308,9 +354,10 @@ div.menu-card {
 
 /*--------PICNIC CSS---------------*/
 .picnicMenu {
-  background-color: #e0ddda;
+  background-color: #1a3d053d;
   margin: 0 5%;
-  padding-bottom: 1%;
+  padding: 2%;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
 }
 
 .picnicMenu .picnic-picture {
@@ -320,6 +367,7 @@ div.menu-card {
 
 .picnicQuoteTop {
   padding-top: 5%;
+  padding-bottom: 3%;
   margin: 0 10%;
 }
 
